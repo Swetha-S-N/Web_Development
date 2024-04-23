@@ -1,0 +1,114 @@
+@font-face {
+    
+    src: url(fonts/Roboto-Black.ttf);
+    font-family: Roboto-Black;
+}
+@font-face {
+    
+    src: url(fonts/DancingScript-Medium.ttf);
+    font-family: Dancing Script;
+}
+@font-face {
+    
+    src: url(fonts/Jersey20Charted-Regular.ttf);
+    font-family: Jersey;
+}
+
+
+h1{
+    font-family:Roboto-Black;
+}
+p{
+    font-family: Dancing Script;
+}
+
+h1
+{
+    /* border-style: solid;
+    border-width: 3px;
+    border-color:hsl(327, 80%, 63%); */
+    border-radius:15px;
+    border:3px solid hsl(327, 80%, 63%);
+}
+
+p
+{
+    border-bottom: 3px solid hsl(204, 75%, 57%);
+    border-top: 3px solid hsl(350, 65%, 56%);
+    border-right: 3px solid hsl(133, 86%, 61%);
+    border-right: 3px solid hsl(29, 93%, 54%);
+}
+
+h1
+{
+    text-shadow: 3px 4px 4px hsl(350, 69%, 60%),-3px -4px 4px hsl(36, 84%, 48%);
+}
+#box 
+{
+    width:100px;
+    height: 100px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 5px ;
+}
+body
+{
+    margin:0px;
+}
+
+.box
+{
+    border:5px solid;
+    font-size: 5em;
+    width: 250px;
+    height:250px;
+    margin:auto;
+    
+}
+#box1
+{
+    background-color: cadetblue;
+    
+   
+}
+#box2
+{
+    background-color: lightcoral;
+   
+}
+body
+{
+    border:3px solid;
+    display:flow-root;
+}
+#img1
+{
+    float: left;
+    margin-right:10px;
+}
+#img2
+{
+    float:right;
+    margin-right:10px;
+    margin-bottom:40px;
+}
+div
+{
+  border:2px solid;
+  height:80px;
+  overflow: scroll;
+
+}
+div{
+    background-color: blue;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+    visibility: hidden;
+}
+span{
+    background-color: palevioletred;
+    width:100px;
+    height: 100px;
+    display:inline-block;
+    visibility: hidden;
+}
