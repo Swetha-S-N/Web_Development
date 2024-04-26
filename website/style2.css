@@ -112,3 +112,57 @@ span{
     display:inline-block;
     visibility: hidden;
 }
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 25px;
+    text-align: center;
+    height: auto;
+    width: 50%;
+    float: left;
+    min-height: 75%;
+
+}
+
+.container {
+    background-color: deeppink;
+    height: 100vh;
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: hsl(193, 66%, 61%);
+    position: sticky;
+    top: 0px;
+    left: 50px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 83%, 48%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+body {
+
+    background-image: url(/images/bg_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container {
+    border: 2px solid;
+}
+
+#container+p {
+    background-color: chartreuse;
+}
