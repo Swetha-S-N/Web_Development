@@ -1,26 +1,22 @@
-h1{
-    color:pink;
-    background-color: crimson;
-}
-.pagination{
-    text-align: center;
-}
-.pagination a{
-    color:black;
-    text-decoration: none;
-    padding:8px 15px;
-    display: inline-block;
+.gallery
+{
+    display:inline-block;
+    border:1px solid blue;
+    margin:5px;
+    width:200px;
 
 }
-.pagination a.active{
-    background-color: violet;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 2px solid blue
+
+.gallery .description{
+    padding:10px;
+    text-align: center;
 }
-.pagination a:hover:not(.active)
-{
-    background-color: rgb(146, 146, 236);
-    border-radius: 10px;
-    
+
+.gallery:hover{
+    border:2px solid greenyellow;
+}
+
+.gallery img{
+    width:100%;
+    height:auto;
 }
