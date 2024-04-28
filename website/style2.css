@@ -166,3 +166,101 @@ body {
 #container+p {
     background-color: chartreuse;
 }
+a:link{
+    color:rgb(236, 189, 89)
+}
+a:hover{
+    color:brown;
+    font-size: 1.1em;
+}
+a:active{
+    color:palevioletred;
+    font-size: 1.1em;
+}
+a:visited{
+    color:green;
+}
+li:hover{
+    background-color: purple;
+}
+li:not(:hover){
+    background-color: aqua;
+}
+li:nth-child(3n+2){
+    background-color: rgb(235, 73, 106);
+}
+#greet p{
+    background-color: hsl(180, 87%, 64%);
+    padding:10px;
+    display: none;
+}
+
+#greet:hover p{
+    display:block;
+}
+h1::first-letter
+{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: rgb(238, 204, 67);
+}
+
+p::selection{
+    color:lightcoral;
+    background-color: pink;
+}
+
+#fruits li::before
+{
+  
+
+}
+#apple::after
+{
+    content: "🍎";
+
+}
+#banana::after
+{
+    content: "🍌";
+
+}
+#strawberry::after
+{
+    content: "🍓";
+
+}
+#fruits li::marker{
+    content:"✅";
+    color:rgb(110, 68, 38);
+    font-size: 2;
+
+}
+h1{
+    color:pink;
+    background-color: crimson;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    text-decoration: none;
+    padding:8px 15px;
+    display: inline-block;
+
+}
+.pagination a.active{
+    background-color: violet;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid blue
+}
+.pagination a:hover:not(.active)
+{
+    background-color: rgb(146, 146, 236);
+    border-radius: 10px;
+    
+}
